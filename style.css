@@ -1,0 +1,102 @@
+main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(255, 209, 0);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    display: flex;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1.8rem rgb(0 0 0 / 15%);
+    width: 450px;
+    height: 560px;
+    justify-content: center;
+    margin-bottom: -88px;
+}
+.login1{
+    font-size: 30px;
+    position: absolute;
+    z-index: 10;
+    margin-bottom: 370px;
+    color: black;
+    border-bottom: solid rgb(255, 209, 0) 1px ;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.login{
+    font-size: 30px;
+    font-family: Graphik,"Gotham SSm A","Gotham SSm B","Helvetica Neue";
+}
+.form{
+    display: flex;
+    position: absolute;
+    padding-top: 160px;
+    flex-direction: column;
+}
+.inp1{
+    margin: 15px;
+    border-color: #820AD1;
+    border-radius: 3px;
+    height: 60px;
+    font-size: 20px;
+    background-color: transparent;
+    opacity: 0.8;
+    border: solid 1px black;
+}
+.inp2{
+    font-size: 20px;
+    margin: 15px;
+    border-color: #820AD1;
+    border-radius: 3px;
+    height: 60px;
+    width: 320px;
+    background-color: transparent;
+    opacity: 0.8;
+    border: solid 1px black;
+}
+.entrar{
+    color: white;
+    background-color: rgb(255, 209, 0);
+    height: 60px;
+    margin: 15px;
+    width: 155px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: solid 1px;
+}
+.cadastrar{
+    color: white;
+    background-color: rgb(255, 209, 0);
+    height: 60px;
+    position: absolute;
+    border-radius: 4px;
+    width: 155px;
+    margin-left: 188px;
+    margin-top: 203px;
+    font-size: 16px;
+    border: solid 1px;
+}
+.inp2::placeholder{
+    padding-left: 6px;
+    color: black;
+}
+.inp1::placeholder{
+    padding-left: 6px;
+    color: black;
+}
+.entrar:hover{
+    background-color: black;
+}
+.cadastrar:hover{
+    background-color: black;
+}
